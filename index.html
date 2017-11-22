@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tecnhology Services</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            // Selectors
+            ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+            header: null, // Selector for fixed headers (must be a valid CSS selector)
+
+            // Speed & Easing
+            speed: 500, // Integer. How fast to complete the scroll in milliseconds
+            offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+            easing: 'easeInOutCubic', // Easing pattern to use
+            customEasing: function(time) {}, // Function. Custom easing pattern
+
+            // Callback API
+            before: function() {}, // Callback to run before scroll
+            after: function() {} // Callback to run after scroll
+        });
+    </script>
+</head>
+
+<body data-spy="scroll" data-target="#scrolleando" data-offset="50">
+
+
+    <nav class="navbar navbar-light navbar-toggleable-sm fixed-top" style="background-color: #f4f4f4;" id="scrolleando">
+        
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand " href="#index.html">
+        <img src="img/Logodividido.png" width="130"class="d-inline-block align-top" alt="">
+        
+        </a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
+            <ul class="navbar-nav" id="">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#Inicio" width: 50px><i class="fa fa-home" aria-hidden="true"></i>Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item">
+                    <a class="nav-link" href="#Servicios"><i class="fa fa-suitcase" aria-hidden="true"></i>Servicios</a>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Nosotros"><i class="fa fa-address-card" aria-hidden="true"></i>Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contacto"><i class="fa fa-phone-square" aria-hidden="true"></i>Contacto</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="base">
+    </div>
+    <div class="container">
+        <div id="Inicio" class="">
+            <h1 class="display-4">Inicio</h1>
+            <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+        </div>
+        <div id="Servicios" class="">
+            <h1 class="display-4">Servicios</h1>
+            <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+        </div>
+        <div id="Nosotros" class="">
+            <h1 class="display-4">Quienes Somos</h1>
+            <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+        </div>
+        <div id="Contacto" class="">
+            <h1 class="display-4">Contacto</h1>
+            <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

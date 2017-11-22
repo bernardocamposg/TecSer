@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-size: 16px; 
+}
+
+.navbar{
+    padding: 0rem 7.5rem !important;
+    
+}
+
+.navbar-light .navbar-nav .nav-link{
+   /* color: white !important;*/
+    font-size: 20px;
+    color: rgb(109,198,235) !important;
+    
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #4357ad!important;
+   /* background-color: #4357ad;*/
+}
+.navbar-light .navbar-nav .nav-link{
+   /* color: white !important;*/
+    font-size: 22px;
+}
+
+.navbar-nav .nav-link.active,.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link{
+   /* background: #4357ad !important;*/
+    color: #4357ad !important;
+}
+
+#Inicio {padding-top:55px;height:500px;color: #fff; background-color: #1E88E5;}
+#Servicios {padding-top:55px;height:500px;color: #fff; background-color: #673ab7;}
+#Nosotros {padding-top:55px;height:500px;color: #fff; background-color: #ff9800;}
+#Contacto {padding-top:55px;height:500px;color: #fff; background-color: #00bcd4;}
